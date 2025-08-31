@@ -1,0 +1,115 @@
+{
+  "name": "Aaradhya Classes Management System",
+  "short_name": "Aaradhya Classes",
+  "description": "Complete tuition management system for Aaradhya Classes with student records, fee tracking, and WhatsApp integration",
+  "version": "1.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#667eea",
+  "background_color": "#f8f9fa",
+  "categories": ["education", "productivity", "business"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/72x72/667eea/white?text=AC",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/96x96/667eea/white?text=AC",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/128x128/667eea/white?text=AC",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/144x144/667eea/white?text=AC",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/152x152/667eea/white?text=AC",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/192x192/667eea/white?text=AC",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/384x384/667eea/white?text=AC",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/667eea/white?text=AC",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/1280x720/667eea/white?text=Dashboard",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Dashboard view with statistics and recent payments"
+    },
+    {
+      "src": "https://via.placeholder.com/390x844/667eea/white?text=Mobile",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "Mobile view of student management"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Student",
+      "short_name": "Add Student",
+      "description": "Quickly add a new student",
+      "url": "/#students",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96/667eea/white?text=+",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View dashboard with statistics",
+      "url": "/#dashboard",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96/667eea/white?text=📊",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "features": [
+    "Cross Platform",
+    "fast",
+    "simple"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 480
+  }
+}

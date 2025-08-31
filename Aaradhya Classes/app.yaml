@@ -1,0 +1,36 @@
+# Google App Engine configuration for Node.js
+runtime: nodejs18
+
+env_variables:
+  NODE_ENV: production
+  DB_HOST: /cloudsql/your-project-id:your-region:your-instance-name
+  DB_USER: root
+  DB_PASSWORD: your-secure-password
+  DB_NAME: tuition_management
+  FRONTEND_URL: https://your-project-id.appspot.com
+
+# Auto-scaling configuration
+automatic_scaling:
+  min_instances: 1
+  max_instances: 10
+  target_cpu_utilization: 0.6
+
+# Health check configuration
+readiness_check:
+  path: "/api/health"
+  check_interval_sec: 5
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+  app_start_timeout_sec: 300
+
+liveness_check:
+  path: "/api/health"
+  check_interval_sec: 30
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+
+# Cloud SQL instance connection
+beta_settings:
+  cloud_sql_instances: your-project-id:your-region:your-instance-name

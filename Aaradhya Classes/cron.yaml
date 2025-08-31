@@ -1,0 +1,12 @@
+cron:
+- description: "Daily database backup at 2 AM IST"
+  url: /api/backup
+  schedule: every day 02:00
+  timezone: Asia/Kolkata
+  target: default
+
+- description: "Weekly analytics report"
+  url: /api/analytics
+  schedule: every monday 09:00
+  timezone: Asia/Kolkata
+  target: default
